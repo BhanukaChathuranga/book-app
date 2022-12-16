@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-gray-400
+    hover:bg-blue-600 dark:bg-gray-800 dark:hover:bg-blue-600 text-blue-500 hover:text-white hover:rounded-2xl 
+    rounded-3xl transition-all duration-300 ease-linear cursor-pointer shadow-lg;
+  }
+
+  .sidebar-hr {
+    @apply bg-gray-200 dark:bg-gray-800 border border-gray-200 dark:border-gray-800 
+    rounded-full mx-2;
+  }
+
+  .top-navigation {
+    @apply flex flex-row items-center justify-evenly bg-gray-300 dark:bg-gray-700 bg-opacity-90 
+    w-full h-16 m-0 shadow-lg;
+  }
+
+  .top-navigation-icon {
+    @apply text-gray-500
+    mr-3 ml-4
+    transition duration-300 ease-in-out 
+    hover:text-pink-400 
+    cursor-pointer;
+  }
+
+  .title-text {
+    @apply text-xl text-gray-500 tracking-wider font-semibold text-opacity-80 
+    mr-auto ml-2 my-auto 
+    transition duration-300 ease-in-out;
+  }
+
+  .content-container {
+    @apply flex flex-col 
+    bg-gray-300 dark:bg-gray-700
+    m-0 ml-16
+    h-screen w-full 
+    overflow-hidden;
+  }
+
+  .content-list {
+    @apply flex flex-col items-center 
+    h-full w-full 
+    mt-0 ml-0 mx-auto px-0 pb-12 
+    overflow-y-scroll;
+  }
+
+  .bottom-bar {
+    @apply flex flex-row items-center justify-between 
+    fixed  right-8 bottom-2 
+    rounded-lg shadow-lg 
+    bg-gray-400 dark:bg-gray-600 px-2
+    h-12;
+  }
+
+  .accept-button {
+    @apply inline-flex justify-center rounded-md border border-transparent
+     bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2;
+  }
+
+  .delete-button {
+    @apply inline-flex justify-center rounded-md border border-transparent
+     bg-red-100 px-4 py-2 text-sm font-medium text-red-900 hover:bg-red-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2;
+  }
+
+  .cancel-button {
+    @apply inline-flex justify-center rounded-md border border-transparent
+     bg-gray-100 px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2;
+  }
+
+  .main {
+    @apply top-16 left-16 w-full h-full bg-gray-800;
+  }
+}
