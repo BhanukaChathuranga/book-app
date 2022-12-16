@@ -138,7 +138,7 @@ function Books() {
 
   return (
     <>
-      <div className="h-full w-full p-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+      <div className="main grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
         <BooksList onClick={onClick} />
       </div>
       {!!bookData && (

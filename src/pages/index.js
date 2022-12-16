@@ -1,4 +1,5 @@
 import Books from './Books';
-import Location from './Location';
+import Stores from './Stores';
+import Add from './Add/Add';
 
-export { Books,Location };
+export { Books, Stores, Add };

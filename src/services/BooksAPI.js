@@ -9,7 +9,7 @@ export async function getBooks() {
     const data = await Promise.all(
       response?.data?.map((val) => ({
         ...val,
-        imgId: randomInt(1000),
+        url: `https://picsum.photos/id/${randomInt(1000)}/200/330`,
       }))
     );
     return data;

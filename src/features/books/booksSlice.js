@@ -60,8 +60,6 @@ export const booksSlice = createSlice({
   },
 });
 
-export const { increment, decrement, incrementByAmount } = booksSlice.actions;
-
 export const selectBooks = (state) => state.book.books;
 
 // We can also write thunks by hand, which may contain both sync and async logic.
