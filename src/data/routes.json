@@ -1,0 +1,7 @@
+{
+    "/books/list": "/books",
+    "/books/get/:id": "/books/:id",
+    "/books/create": "/books",
+    "/books/update/:id": "/books/:id",
+    "/books/delete/:id": "/books/:id"
+  }
