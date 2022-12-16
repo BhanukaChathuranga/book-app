@@ -3,5 +3,7 @@
     "/books/get/:id": "/books/:id",
     "/books/create": "/books",
     "/books/update/:id": "/books/:id",
-    "/books/delete/:id": "/books/:id"
+    "/books/delete/:id": "/books/:id",
+    "/store/list": "/store",   
+    "/store/create": "/store"
   }

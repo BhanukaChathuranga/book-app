@@ -1,6 +1,13 @@
 {
   "book": [
     {
+      "id": 1,
+      "name": "Pankaj",
+      "author": "test 1",
+      "year": 1925,
+      "description": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
+    },
+    {
       "id": 2,
       "name": "David",
       "author": "jon doe",
@@ -8,10 +15,26 @@
       "description": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
     }
   ],
-  "location": [
+  "store": [
     {
       "id": 1,
-      "name": "kandy"
+      "name": "kandy",
+      "location": {
+        "country": "sri lanka",
+        "province": "ds",
+        "city": "sdf",
+        "street": "dfs"
+      }
+    },
+    {
+      "name": "test",
+      "location": {
+        "country": "sri lanka",
+        "province": "ds",
+        "city": "sdf",
+        "street": "dfs"
+      },
+      "id": 2
     }
   ]
 }
